@@ -108,6 +108,15 @@
     _circlePathLayer = nil;
 }
 ```
+## Installation
 
-##### 参考文档
-http://www.07net01.com/2015/07/874188.html
+1.手动添加:
+- 将WWTabbar文件夹中拖拽到项目中
+- 导入头文件：`#import "WWTabbar.h"`
+
+2.pods添加
+- pod 'WWAnimationTabbar'
+
+## License
+
+- MIT license.
