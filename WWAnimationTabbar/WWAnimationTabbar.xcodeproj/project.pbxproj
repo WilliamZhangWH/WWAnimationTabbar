@@ -7,43 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0591DA151C4E30FA00F63B12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA141C4E30FA00F63B12 /* main.m */; };
-		0591DA181C4E30FA00F63B12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA171C4E30FA00F63B12 /* AppDelegate.m */; };
-		0591DA1E1C4E30FA00F63B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DA1C1C4E30FA00F63B12 /* Main.storyboard */; };
-		0591DA201C4E30FA00F63B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0591DA1F1C4E30FA00F63B12 /* Assets.xcassets */; };
-		0591DA231C4E30FA00F63B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0591DA211C4E30FA00F63B12 /* LaunchScreen.storyboard */; };
-		0591DA2C1C4E391E00F63B12 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA2B1C4E391E00F63B12 /* HomeViewController.m */; };
-		0591DA2F1C4E395A00F63B12 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA2E1C4E395A00F63B12 /* FavoriteViewController.m */; };
-		0591DA321C4E396800F63B12 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA311C4E396800F63B12 /* SettingViewController.m */; };
-		0591DA4C1C4F2B3600F63B12 /* WWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA471C4F2B3600F63B12 /* WWTabBar.m */; };
-		0591DA4D1C4F2B3600F63B12 /* WWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA491C4F2B3600F63B12 /* WWTabBarButton.m */; };
-		0591DA511C50A27600F63B12 /* WWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA501C50A27600F63B12 /* WWBaseViewController.m */; };
-		3DA982EA1CF2D95500145E59 /* WWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA982E91CF2D95500145E59 /* WWTabBarViewController.m */; };
+		3DA982F01CF2E34700145E59 /* WWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA982ED1CF2E34700145E59 /* WWTabBar.m */; };
+		3DA982F11CF2E34700145E59 /* WWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA982EF1CF2E34700145E59 /* WWTabBarButton.m */; };
+		3DA983061CF2E35600145E59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA982F41CF2E35600145E59 /* AppDelegate.m */; };
+		3DA983071CF2E35600145E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA982F51CF2E35600145E59 /* Assets.xcassets */; };
+		3DA983081CF2E35600145E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA982F61CF2E35600145E59 /* LaunchScreen.storyboard */; };
+		3DA983091CF2E35600145E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA982F81CF2E35600145E59 /* Main.storyboard */; };
+		3DA9830A1CF2E35600145E59 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA982FB1CF2E35600145E59 /* FavoriteViewController.m */; };
+		3DA9830B1CF2E35600145E59 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA982FD1CF2E35600145E59 /* HomeViewController.m */; };
+		3DA9830C1CF2E35600145E59 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA982FE1CF2E35600145E59 /* Info.plist */; };
+		3DA9830D1CF2E35600145E59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA982FF1CF2E35600145E59 /* main.m */; };
+		3DA9830E1CF2E35600145E59 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA983011CF2E35600145E59 /* SettingViewController.m */; };
+		3DA9830F1CF2E35600145E59 /* WWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA983031CF2E35600145E59 /* WWBaseViewController.m */; };
+		3DA983101CF2E35600145E59 /* WWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA983051CF2E35600145E59 /* WWTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0591DA101C4E30FA00F63B12 /* WWAnimationTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWAnimationTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0591DA141C4E30FA00F63B12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0591DA161C4E30FA00F63B12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0591DA171C4E30FA00F63B12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0591DA1D1C4E30FA00F63B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0591DA1F1C4E30FA00F63B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0591DA221C4E30FA00F63B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0591DA241C4E30FA00F63B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0591DA2A1C4E391E00F63B12 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		0591DA2B1C4E391E00F63B12 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		0591DA2D1C4E395A00F63B12 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
-		0591DA2E1C4E395A00F63B12 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
-		0591DA301C4E396800F63B12 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
-		0591DA311C4E396800F63B12 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
-		0591DA461C4F2B3600F63B12 /* WWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBar.h; sourceTree = "<group>"; };
-		0591DA471C4F2B3600F63B12 /* WWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBar.m; sourceTree = "<group>"; };
-		0591DA481C4F2B3600F63B12 /* WWTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBarButton.h; sourceTree = "<group>"; };
-		0591DA491C4F2B3600F63B12 /* WWTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBarButton.m; sourceTree = "<group>"; };
-		0591DA4F1C50A27600F63B12 /* WWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBaseViewController.h; sourceTree = "<group>"; };
-		0591DA501C50A27600F63B12 /* WWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBaseViewController.m; sourceTree = "<group>"; };
-		3DA982E81CF2D95500145E59 /* WWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBarViewController.h; sourceTree = "<group>"; };
-		3DA982E91CF2D95500145E59 /* WWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBarViewController.m; sourceTree = "<group>"; };
+		3DA982EC1CF2E34700145E59 /* WWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBar.h; sourceTree = "<group>"; };
+		3DA982ED1CF2E34700145E59 /* WWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBar.m; sourceTree = "<group>"; };
+		3DA982EE1CF2E34700145E59 /* WWTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBarButton.h; sourceTree = "<group>"; };
+		3DA982EF1CF2E34700145E59 /* WWTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBarButton.m; sourceTree = "<group>"; };
+		3DA982F31CF2E35600145E59 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DA982F41CF2E35600145E59 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DA982F51CF2E35600145E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DA982F71CF2E35600145E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DA982F91CF2E35600145E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DA982FA1CF2E35600145E59 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		3DA982FB1CF2E35600145E59 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		3DA982FC1CF2E35600145E59 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3DA982FD1CF2E35600145E59 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3DA982FE1CF2E35600145E59 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA982FF1CF2E35600145E59 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DA983001CF2E35600145E59 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		3DA983011CF2E35600145E59 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3DA983021CF2E35600145E59 /* WWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBaseViewController.h; sourceTree = "<group>"; };
+		3DA983031CF2E35600145E59 /* WWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBaseViewController.m; sourceTree = "<group>"; };
+		3DA983041CF2E35600145E59 /* WWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBarViewController.h; sourceTree = "<group>"; };
+		3DA983051CF2E35600145E59 /* WWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,8 @@
 		0591DA071C4E30FA00F63B12 = {
 			isa = PBXGroup;
 			children = (
-				0591DA121C4E30FA00F63B12 /* WWAnimationTabbar */,
+				3DA982EB1CF2E34700145E59 /* WWTabbar */,
+				3DA982F21CF2E35600145E59 /* WWAnimationTabbarDemo */,
 				0591DA111C4E30FA00F63B12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,48 +75,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0591DA121C4E30FA00F63B12 /* WWAnimationTabbar */ = {
+		3DA982EB1CF2E34700145E59 /* WWTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				0591DA451C4F2AFE00F63B12 /* WWTabbar */,
-				3DA982E81CF2D95500145E59 /* WWTabBarViewController.h */,
-				3DA982E91CF2D95500145E59 /* WWTabBarViewController.m */,
-				0591DA161C4E30FA00F63B12 /* AppDelegate.h */,
-				0591DA171C4E30FA00F63B12 /* AppDelegate.m */,
-				0591DA4F1C50A27600F63B12 /* WWBaseViewController.h */,
-				0591DA501C50A27600F63B12 /* WWBaseViewController.m */,
-				0591DA2A1C4E391E00F63B12 /* HomeViewController.h */,
-				0591DA2B1C4E391E00F63B12 /* HomeViewController.m */,
-				0591DA2D1C4E395A00F63B12 /* FavoriteViewController.h */,
-				0591DA2E1C4E395A00F63B12 /* FavoriteViewController.m */,
-				0591DA301C4E396800F63B12 /* SettingViewController.h */,
-				0591DA311C4E396800F63B12 /* SettingViewController.m */,
-				0591DA1C1C4E30FA00F63B12 /* Main.storyboard */,
-				0591DA1F1C4E30FA00F63B12 /* Assets.xcassets */,
-				0591DA211C4E30FA00F63B12 /* LaunchScreen.storyboard */,
-				0591DA241C4E30FA00F63B12 /* Info.plist */,
-				0591DA131C4E30FA00F63B12 /* Supporting Files */,
-			);
-			path = WWAnimationTabbar;
-			sourceTree = "<group>";
-		};
-		0591DA131C4E30FA00F63B12 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0591DA141C4E30FA00F63B12 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0591DA451C4F2AFE00F63B12 /* WWTabbar */ = {
-			isa = PBXGroup;
-			children = (
-				0591DA461C4F2B3600F63B12 /* WWTabBar.h */,
-				0591DA471C4F2B3600F63B12 /* WWTabBar.m */,
-				0591DA481C4F2B3600F63B12 /* WWTabBarButton.h */,
-				0591DA491C4F2B3600F63B12 /* WWTabBarButton.m */,
+				3DA982EC1CF2E34700145E59 /* WWTabBar.h */,
+				3DA982ED1CF2E34700145E59 /* WWTabBar.m */,
+				3DA982EE1CF2E34700145E59 /* WWTabBarButton.h */,
+				3DA982EF1CF2E34700145E59 /* WWTabBarButton.m */,
 			);
 			path = WWTabbar;
+			sourceTree = "<group>";
+		};
+		3DA982F21CF2E35600145E59 /* WWAnimationTabbarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3DA982F31CF2E35600145E59 /* AppDelegate.h */,
+				3DA982F41CF2E35600145E59 /* AppDelegate.m */,
+				3DA983041CF2E35600145E59 /* WWTabBarViewController.h */,
+				3DA983051CF2E35600145E59 /* WWTabBarViewController.m */,
+				3DA983021CF2E35600145E59 /* WWBaseViewController.h */,
+				3DA983031CF2E35600145E59 /* WWBaseViewController.m */,
+				3DA982FA1CF2E35600145E59 /* FavoriteViewController.h */,
+				3DA982FB1CF2E35600145E59 /* FavoriteViewController.m */,
+				3DA982FC1CF2E35600145E59 /* HomeViewController.h */,
+				3DA982FD1CF2E35600145E59 /* HomeViewController.m */,
+				3DA983001CF2E35600145E59 /* SettingViewController.h */,
+				3DA983011CF2E35600145E59 /* SettingViewController.m */,
+				3DA982FE1CF2E35600145E59 /* Info.plist */,
+				3DA982FF1CF2E35600145E59 /* main.m */,
+				3DA982F51CF2E35600145E59 /* Assets.xcassets */,
+				3DA982F61CF2E35600145E59 /* LaunchScreen.storyboard */,
+				3DA982F81CF2E35600145E59 /* Main.storyboard */,
+			);
+			path = WWAnimationTabbarDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0591DA231C4E30FA00F63B12 /* LaunchScreen.storyboard in Resources */,
-				0591DA201C4E30FA00F63B12 /* Assets.xcassets in Resources */,
-				0591DA1E1C4E30FA00F63B12 /* Main.storyboard in Resources */,
+				3DA9830C1CF2E35600145E59 /* Info.plist in Resources */,
+				3DA983091CF2E35600145E59 /* Main.storyboard in Resources */,
+				3DA983071CF2E35600145E59 /* Assets.xcassets in Resources */,
+				3DA983081CF2E35600145E59 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,35 +182,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0591DA511C50A27600F63B12 /* WWBaseViewController.m in Sources */,
-				0591DA181C4E30FA00F63B12 /* AppDelegate.m in Sources */,
-				3DA982EA1CF2D95500145E59 /* WWTabBarViewController.m in Sources */,
-				0591DA4C1C4F2B3600F63B12 /* WWTabBar.m in Sources */,
-				0591DA151C4E30FA00F63B12 /* main.m in Sources */,
-				0591DA4D1C4F2B3600F63B12 /* WWTabBarButton.m in Sources */,
-				0591DA2F1C4E395A00F63B12 /* FavoriteViewController.m in Sources */,
-				0591DA2C1C4E391E00F63B12 /* HomeViewController.m in Sources */,
-				0591DA321C4E396800F63B12 /* SettingViewController.m in Sources */,
+				3DA982F11CF2E34700145E59 /* WWTabBarButton.m in Sources */,
+				3DA9830F1CF2E35600145E59 /* WWBaseViewController.m in Sources */,
+				3DA983101CF2E35600145E59 /* WWTabBarViewController.m in Sources */,
+				3DA982F01CF2E34700145E59 /* WWTabBar.m in Sources */,
+				3DA9830A1CF2E35600145E59 /* FavoriteViewController.m in Sources */,
+				3DA9830E1CF2E35600145E59 /* SettingViewController.m in Sources */,
+				3DA9830B1CF2E35600145E59 /* HomeViewController.m in Sources */,
+				3DA9830D1CF2E35600145E59 /* main.m in Sources */,
+				3DA983061CF2E35600145E59 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0591DA1C1C4E30FA00F63B12 /* Main.storyboard */ = {
+		3DA982F61CF2E35600145E59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0591DA1D1C4E30FA00F63B12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0591DA211C4E30FA00F63B12 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0591DA221C4E30FA00F63B12 /* Base */,
+				3DA982F71CF2E35600145E59 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3DA982F81CF2E35600145E59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA982F91CF2E35600145E59 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
