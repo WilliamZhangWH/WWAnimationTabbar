@@ -17,8 +17,8 @@
 		0591DA321C4E396800F63B12 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA311C4E396800F63B12 /* SettingViewController.m */; };
 		0591DA4C1C4F2B3600F63B12 /* WWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA471C4F2B3600F63B12 /* WWTabBar.m */; };
 		0591DA4D1C4F2B3600F63B12 /* WWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA491C4F2B3600F63B12 /* WWTabBarButton.m */; };
-		0591DA4E1C4F2B3600F63B12 /* WWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA4B1C4F2B3600F63B12 /* WWTabBarViewController.m */; };
 		0591DA511C50A27600F63B12 /* WWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591DA501C50A27600F63B12 /* WWBaseViewController.m */; };
+		3DA982EA1CF2D95500145E59 /* WWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA982E91CF2D95500145E59 /* WWTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +40,10 @@
 		0591DA471C4F2B3600F63B12 /* WWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBar.m; sourceTree = "<group>"; };
 		0591DA481C4F2B3600F63B12 /* WWTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBarButton.h; sourceTree = "<group>"; };
 		0591DA491C4F2B3600F63B12 /* WWTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBarButton.m; sourceTree = "<group>"; };
-		0591DA4A1C4F2B3600F63B12 /* WWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBarViewController.h; sourceTree = "<group>"; };
-		0591DA4B1C4F2B3600F63B12 /* WWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBarViewController.m; sourceTree = "<group>"; };
 		0591DA4F1C50A27600F63B12 /* WWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBaseViewController.h; sourceTree = "<group>"; };
 		0591DA501C50A27600F63B12 /* WWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBaseViewController.m; sourceTree = "<group>"; };
+		3DA982E81CF2D95500145E59 /* WWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWTabBarViewController.h; sourceTree = "<group>"; };
+		3DA982E91CF2D95500145E59 /* WWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				0591DA451C4F2AFE00F63B12 /* WWTabbar */,
+				3DA982E81CF2D95500145E59 /* WWTabBarViewController.h */,
+				3DA982E91CF2D95500145E59 /* WWTabBarViewController.m */,
 				0591DA161C4E30FA00F63B12 /* AppDelegate.h */,
 				0591DA171C4E30FA00F63B12 /* AppDelegate.m */,
 				0591DA4F1C50A27600F63B12 /* WWBaseViewController.h */,
@@ -111,8 +113,6 @@
 				0591DA471C4F2B3600F63B12 /* WWTabBar.m */,
 				0591DA481C4F2B3600F63B12 /* WWTabBarButton.h */,
 				0591DA491C4F2B3600F63B12 /* WWTabBarButton.m */,
-				0591DA4A1C4F2B3600F63B12 /* WWTabBarViewController.h */,
-				0591DA4B1C4F2B3600F63B12 /* WWTabBarViewController.m */,
 			);
 			path = WWTabbar;
 			sourceTree = "<group>";
@@ -190,10 +190,10 @@
 			files = (
 				0591DA511C50A27600F63B12 /* WWBaseViewController.m in Sources */,
 				0591DA181C4E30FA00F63B12 /* AppDelegate.m in Sources */,
+				3DA982EA1CF2D95500145E59 /* WWTabBarViewController.m in Sources */,
 				0591DA4C1C4F2B3600F63B12 /* WWTabBar.m in Sources */,
 				0591DA151C4E30FA00F63B12 /* main.m in Sources */,
 				0591DA4D1C4F2B3600F63B12 /* WWTabBarButton.m in Sources */,
-				0591DA4E1C4F2B3600F63B12 /* WWTabBarViewController.m in Sources */,
 				0591DA2F1C4E395A00F63B12 /* FavoriteViewController.m in Sources */,
 				0591DA2C1C4E391E00F63B12 /* HomeViewController.m in Sources */,
 				0591DA321C4E396800F63B12 /* SettingViewController.m in Sources */,
