@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zJa-mz-SKR">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDS-7x-p4N">
+                                <rect key="frame" x="197" y="491" width="115" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="q03-hO-NeK"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Product By William.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="HiraginoSans-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43921568630000002" green="0.76078431369999999" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CDS-7x-p4N" secondAttribute="bottom" constant="8" id="r8b-bw-Ihb"/>
+                            <constraint firstAttribute="trailing" secondItem="CDS-7x-p4N" secondAttribute="trailing" constant="8" id="zUa-yR-JJZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="T55-3v-rpN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="-264"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="5Sw-s7-xIr">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="zJa-mz-SKR" customClass="WWTabBarViewController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="7c4-O8-N83">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ihE-vT-Co0" kind="relationship" relationship="viewControllers" id="F0F-XI-wUR"/>
+                        <segue destination="RKB-XL-jQH" kind="relationship" relationship="viewControllers" id="HxR-gQ-rMe"/>
+                        <segue destination="XT7-qM-6qb" kind="relationship" relationship="viewControllers" id="CqC-NC-NxY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wvz-q4-IxE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328" y="429"/>
+        </scene>
+        <!--收藏-->
+        <scene sceneID="bsf-is-oUM">
+            <objects>
+                <viewController id="3OY-lA-XcF" customClass="FavoriteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m8d-F8-kgO"/>
+                        <viewControllerLayoutGuide type="bottom" id="X3a-sJ-BVG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="06l-cG-ZHw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3a-Os-pd0">
+                                <rect key="frame" x="197" y="491" width="115" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="glE-GN-krt"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Product By William.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="HiraginoSans-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.59999999999999998" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="X3a-sJ-BVG" firstAttribute="top" secondItem="V3a-Os-pd0" secondAttribute="bottom" constant="8" id="4Kl-j3-2Cv"/>
+                            <constraint firstAttribute="trailing" secondItem="V3a-Os-pd0" secondAttribute="trailing" constant="8" id="RCQ-Of-PIN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="收藏" id="LZF-jw-sfq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qNc-ec-g5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="439"/>
+        </scene>
+        <!--设置-->
+        <scene sceneID="QuH-cz-Htl">
+            <objects>
+                <viewController id="vAA-nx-mAL" customClass="SettingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gmI-6Z-ZeT"/>
+                        <viewControllerLayoutGuide type="bottom" id="mMz-Mn-IA9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FEL-LD-Inb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4q-gd-oKE">
+                                <rect key="frame" x="197" y="491" width="115" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="zRo-R2-i80"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Product By William.">
+                                        <attributes>
+                                            <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="12" name="HiraginoSans-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.40000000000000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="mMz-Mn-IA9" firstAttribute="top" secondItem="J4q-gd-oKE" secondAttribute="bottom" constant="8" id="4Wb-A2-3Eo"/>
+                            <constraint firstAttribute="trailing" secondItem="J4q-gd-oKE" secondAttribute="trailing" constant="8" id="bMG-tE-Qzr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="设置" id="JkH-Xk-By6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HPZ-zD-tFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="1192"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="yQc-MA-hXJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ihE-vT-Co0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="DEq-kn-2Xg"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WY1-3V-7qS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JQY-gm-I8B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z66-FZ-UxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="-264"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="IFS-EA-9DP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XT7-qM-6qb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="63h-kL-sTY"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="omw-m7-iwg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3OY-lA-XcF" kind="relationship" relationship="rootViewController" id="Bqz-Qp-V58"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iMA-OT-UGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="439"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="1Ig-EC-Ip5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RKB-XL-jQH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="95f-r7-Whw"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lHt-AL-R9y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vAA-nx-mAL" kind="relationship" relationship="rootViewController" id="xOJ-pV-MkJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QwE-rQ-mqu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="1192"/>
+        </scene>
+    </scenes>
+</document>
